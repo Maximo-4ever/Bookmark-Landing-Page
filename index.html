@@ -12,9 +12,41 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
-    <h1>Hello world</h1>
+    <nav class="nav">
+      <img
+        class="nav__logo"
+        src="./images/logo-bookmark.svg"
+        alt="Logo bookmark"
+      />
+      <img
+        class="nav__hamburger"
+        src="./images/icon-hamburger.svg"
+        alt="Icon hamburger"
+      />
+    </nav>
+    <header class="header">
+      <div class="header__imgContaienr">
+        <img src="./images/illustration-hero.svg" alt="illustration hero" />
+      </div>
+      <article class="header__body">
+        <h1 class="header__body__title">A Simple Bookmark Manager</h1>
+        <p class="header__body__text">
+          A clean and simple interface to organize your favourite websites. Open
+          a new browser tab and see your sites load instantly. Try it for free.
+        </p>
+        <div class="header__btnContainer">
+          <button class="btn btn-primary">Get it on Chrome</button>
+          <button class="btn btn-secondary">Get it on Firefox</button>
+        </div>
+      </article>
+    </header>
   </body>
 
   <script src="./app.js"></script>
